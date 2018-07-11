@@ -15,7 +15,11 @@
 			
 			echo("<registrogps>
 					<id>$u[id]</id>
+					<fecha>".utf8_encode($u['fecha'])."</fecha>
 					<imei>".utf8_encode($u['imei'])."</imei>
+					<longitud>".utf8_encode($u['longitud'])."</longitud>
+					<latitud>".utf8_encode($u['latitud'])."</latitud>
+					<speed>".utf8_encode($u['speed'])."</speed>
 					
 				</registrogps>");
 		}
